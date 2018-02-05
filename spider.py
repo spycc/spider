@@ -24,8 +24,6 @@ class Spider():
         html = r.read()
         html = str(html,encoding = 'utf-8')
         return html
-        a = 1
-    
 
     def __analysis(self,html):
         '''
